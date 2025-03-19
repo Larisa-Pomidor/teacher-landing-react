@@ -1,0 +1,42 @@
+.home__student-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.home__inner {
+    padding: 30px 20px;
+}
+
+.home__title-block {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.home__search-block {
+    width: 267px;
+    background-color: #efefef;
+    border-radius: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+.home__search-block span {
+    margin-left: 8px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.home__search-block svg {
+    zoom: 0.8;
+}

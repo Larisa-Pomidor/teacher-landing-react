@@ -1,0 +1,85 @@
+.equalizer {
+    min-width: 46px;
+    min-height: 46px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(90deg);
+    align-items: center;
+}
+
+.soundbar {
+    transform: rotate(90deg);
+}
+
+.soundbar .sound .equalizer .holder {
+    width: 23px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+
+.soundbar .sound .equalizer * {
+    transition-delay: 0s;
+}
+
+.soundbar .sound .sound-text {
+    height: 46px;
+    line-height: 46px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.soundbar .sound .sound-text.move-up b {
+    transform: translateY(-50%);
+}
+
+.soundbar .sound .sound-text b {
+    width: 100%;
+    display: block;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    font-weight: 400;
+}
+
+.equalizer span {
+    background: #fff;
+    width: 2px;
+    height: 2px;
+    top: 50%;
+    bottom: 0;
+    left: 0%;
+    transform: translateY(-50%);
+    position: absolute;
+    transition: height 0.2s linear;
+    margin-left: 14px;
+}
+
+.equalizer span:nth-child(1) {
+    margin-left: 18px;
+}
+
+.equalizer span:nth-child(2) {
+    margin-left: 22px;
+}
+
+.equalizer span:nth-child(4) {
+    margin-left: 26px;
+}
+
+.equalizer span:nth-child(5) {
+    margin-left: 30px;
+}
+
+.equalizer span:nth-child(6) {
+    margin-left: 34px;
+}
