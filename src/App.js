@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './Header/Header';
-import Home from './Home/Home';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Sidebar from './Sidebar/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 import { CursorEffect } from './utils/cursorEffect';
 
 function App() {

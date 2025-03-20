@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { students } from '../config/students'
+import { students } from '../../config/students'
 import Student from './Student'
 import './Home.css'
-import { isEqual } from '../utils/compareUtils'
+import { isEqual } from '../../utils/compareUtils'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import Video from './Video'
 
 const Home = () => {
 
@@ -38,7 +39,7 @@ const Home = () => {
                                     isActive={activeStudent && (activeStudent.id === student.id)}
                                     handleActiveStudent={handleActiveStudent} />
                                 :
-                                <div key={0}></div>
+                                <Video key={0} />
                         ))
                     }
                 </div>

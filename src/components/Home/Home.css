@@ -21,7 +21,7 @@
 }
 
 .home__search-block {
-    width: 267px;
+    width: 300px;
     background-color: #efefef;
     border-radius: 30px;
     height: 40px;
@@ -33,7 +33,7 @@
 
 .home__search-block span {
     margin-left: 8px;
-    font-size: 12px;
+    font-size: 14px;
     opacity: 0.6;
 }
 

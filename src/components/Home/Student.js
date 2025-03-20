@@ -35,8 +35,13 @@ const Student = ({ item, isActive, handleActiveStudent }) => {
                             {item.audioName}
                         </div>
                         <div className='student__audio-time'>
-                            <FontAwesomeIcon icon={faClock} />
-                            {duration && `${duration.toFixed(2)} min`}
+                            {duration &&
+                                <>
+                                    <FontAwesomeIcon icon={faClock} />
+                                    <>{`${duration.toFixed(2)} min`}</>
+                                </>
+
+                            }
                         </div>
                     </div>
                     <div className='student__audio-equalizer'>

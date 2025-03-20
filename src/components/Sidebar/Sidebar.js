@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
-import { education } from '../config/education'
+import { education } from '../../config/education'
 import EducationItem from './EducationItem'
 
 const Sidebar = () => {
@@ -12,7 +12,7 @@ const Sidebar = () => {
                         About me 👩🏻‍🏫
                     </div>
                     <div className='sidebar__about-image'>
-                        <img alt='' />
+                        <img src='/avatar.jpg' alt='' />
                     </div>
                     <div className='sidebar__about-name'>
                         Veronika
@@ -25,7 +25,7 @@ const Sidebar = () => {
                     <div className='sidebar__education-list'>
                         {
                             education && education.map((educationItem, index) => (
-                                <EducationItem key={index + 1} index={index} item={educationItem} />
+                                <EducationItem key={index} index={index + 1} item={educationItem} />
                             ))
                         }
                     </div>

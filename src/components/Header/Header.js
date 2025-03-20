@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import './Header.css'
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
                 <div className='container'>
                     <div className='header__inner'>
                         <div className='header__logo'>
-
+                            2SPL.<span>Studio</span>
                         </div>
                         <Navbar />
                     </div>

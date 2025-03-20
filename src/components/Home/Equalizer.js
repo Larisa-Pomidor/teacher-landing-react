@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { randomBetween } from "../utils/randomUtils";
+import { randomBetween } from "../../utils/randomUtils";
 
 const Equalizer = ({ speed = 250, barsHeight = [5, 10, 15, 20, 30],
     handleTrack, isActive }) => {

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.header__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.header__logo {
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 23px;
+}
+
+.header__logo span {
+    color: #e385ff;
+}
+
+.menu__list svg {
+    color: white;
+}
+
+.menu__item {
+    display: flex;
+    text-decoration: none;
+    align-items: baseline;
+    gap: 5px;
+    position: relative;
+    font-size: 22px;
+}
+
+.menu__item_active:before {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 35px;
+    content: url('/public//menu-icon.svg');
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.menu__item span {
+    color: white;
+    font-size: 14px;
+}

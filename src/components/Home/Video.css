@@ -1,0 +1,48 @@
+.video__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.video__desc {
+    text-align: center;
+    position: relative;
+}
+
+.video__animation {
+    position: relative;
+}
+
+.video__icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video__icon svg {
+    zoom: 2;
+    margin-left: 3px;
+    margin-top: -2px;
+}
+
+.video__loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video__title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.video__desc {
+    font-size: 11px;
+    opacity: 0.6;
+    text-align: center;
+    top: 2px;
+}

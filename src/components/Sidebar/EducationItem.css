@@ -1,0 +1,93 @@
+.sidebar__education-list {
+    margin-top: 29px;
+}
+
+.education-item {
+    position: relative;
+}
+
+.education-item__number {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.education-item__name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.education-item__year {
+    font-size: 10px;
+    opacity: 0.8;
+    margin: 3px 0 8px 0;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #8d26ac;
+}
+
+.education-item__school {
+    font-size: 13px;
+    opacity: 0.3;
+    margin-top: 5px;
+}
+
+.education-item {
+    margin-bottom: 13px;
+}
+
+.education-item__number {
+    margin-bottom: 13px;
+    right: 0;
+    top: 0;
+}
+
+.education-item__number-inner {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.education-item:nth-child(1) .education-item__number-inner {
+    background: #f2d4fa;
+}
+
+.education-item:nth-child(2) .education-item__number-inner {
+    background: #f9e9b2;
+}
+
+.education-item:nth-child(3) .education-item__number-inner {
+    background: #fdd6d5;
+}
+
+.education-item:nth-child(4) .education-item__number-inner {
+    background: #dff7f7;
+}
+
+.education-item__number-inner {
+    font-size: 13px;
+    font-weight: 600;
+    border: 3px dashed #80808030;
+    box-sizing: border-box;
+}
+
+.education-item__number-inner {
+    position: relative;
+}
+
+.education-item__number-inner:before {
+    position: absolute;
+    content: '';
+    right: 27px;
+    top: 12px;
+    width: 30px;
+    height: 1px;
+    background: #80808033;
+}
+
+.education-item__data {
+    padding-right: 85px;
+}

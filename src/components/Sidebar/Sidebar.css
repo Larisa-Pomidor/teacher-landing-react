@@ -14,12 +14,13 @@
 }
 
 .sidebar__about-image {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
+    margin-top: -10px;
 }
 
 .sidebar__about-image img {
-    width: 60px;
+    width: 110px;
     aspect-ratio: 1 / 1;
     border-radius: 100%;
 }
@@ -36,5 +37,5 @@
     width: fit-content;
     margin: auto;
     transform: rotate(4deg);
-    margin-top: -10px;
+    margin-top: -15px;
 }
