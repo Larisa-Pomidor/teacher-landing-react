@@ -40,3 +40,54 @@
 .home__search-block svg {
     zoom: 0.8;
 }
+
+@media(max-width: 1160px) {
+    .home__student-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 1060px) {
+    .home__search-block {
+        width: 265px;
+    }
+
+    .home__search-block span {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .home__header {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .home__search-block {
+        zoom: 0.8;
+    }
+}
+
+@media(max-width: 850px) {
+    .home__student-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 700px) {
+    .home__student-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home {
+        order: 2;
+    }
+}
+
+@media(max-width: 500px) {
+    .home__student-list {
+        grid-template-columns: 1fr;
+    }
+}

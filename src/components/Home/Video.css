@@ -46,3 +46,13 @@
     text-align: center;
     top: 2px;
 }
+
+@media(max-width: 500px) {
+    .video__inner {
+        height: 250px;
+    }
+
+    .video__block {
+        margin-bottom: -45px;
+    }
+}

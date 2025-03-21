@@ -12,7 +12,7 @@ const Sidebar = () => {
                         About me 👩🏻‍🏫
                     </div>
                     <div className='sidebar__about-image'>
-                        <img src='/avatar.jpg' alt='' />
+                        <img src='/avatar-2.jpg' alt='' />
                     </div>
                     <div className='sidebar__about-name'>
                         Veronika

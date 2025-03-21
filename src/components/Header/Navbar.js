@@ -2,6 +2,7 @@ import { faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Loader from '../Loader'
 
 const Navbar = () => {
     return (
@@ -13,6 +14,7 @@ const Navbar = () => {
                         <span>Professional background</span>
                     </Link>
                     <Link className='menu__item'>
+                        <Loader />
                         🎬
                     </Link>
                     <Link className='menu__item'>

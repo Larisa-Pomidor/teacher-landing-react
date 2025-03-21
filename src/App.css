@@ -8,7 +8,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ba0000;
+  background-color: #e385ff82;
   border-radius: 20px;
   border: 2px solid black;
 }
@@ -55,4 +55,10 @@
   display: grid;
   grid-template-columns: 1fr 400px;
   margin-top: -7px;
+}
+
+@media(max-width: 850px) {
+  .App__inner {
+    grid-template-columns: 1fr;
+  }
 }

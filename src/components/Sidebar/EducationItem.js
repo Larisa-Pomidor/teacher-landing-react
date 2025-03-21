@@ -11,9 +11,7 @@ const EducationItem = ({ item, index }) => {
                 <div className='education-item__year'>
                     {item.year}
                 </div>
-                <div className='education-item__school'>
-                    {item.school}
-                </div>
+                <div className='education-item__school' dangerouslySetInnerHTML={{ __html: item.school }} />
             </div>
             <div className='education-item__number'>
                 <div className='education-item__number-inner'>

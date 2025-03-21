@@ -3,13 +3,13 @@ export const education = [
         id: 1,
         name: 'Advanced English Proficiency ',
         year: '(2024-2025)',
-        school: 'Mastering C1-C2 English proficiency through EF Courses, enhancing communication and teaching excellence.',
+        school: 'Mastering <a target="_blank" href="/certificates.pdf">C1-C2 English proficiency through EF Courses</a>, enhancing communication and teaching excellence.',
     },
     {
         id: 2,
         name: 'Teaching & Program Development ',
         year: '(2022-2024)',
-        school: 'Moved to Chicago, founded 2spl.studio, and taught English & programming to kids.',
+        school: 'Moved to Chicago, founded 2SPL.Studio, and taught English & programming to kids.',
     },
     {
         id: 3,
