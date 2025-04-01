@@ -18,7 +18,7 @@ const Sidebar = () => {
                         Veronika
                     </div>'
                     <div className='sidebar__about-label'>
-                        76+ students
+                        90+ students
                     </div>
                 </section>
                 <section className='sidebar__education'>

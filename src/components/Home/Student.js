@@ -38,7 +38,7 @@ const Student = ({ item, isActive, handleActiveStudent }) => {
                             {duration &&
                                 <>
                                     <FontAwesomeIcon icon={faClock} />
-                                    <>{`${duration.toFixed(2)} min`}</>
+                                    <>{`${duration.toFixed(0)} sec`}</>
                                 </>
 
                             }

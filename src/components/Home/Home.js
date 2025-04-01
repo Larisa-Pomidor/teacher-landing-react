@@ -6,6 +6,7 @@ import { isEqual } from '../../utils/compareUtils'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import Video from './Video'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -24,12 +25,12 @@ const Home = () => {
                     <div className='home__title-block'>
                         What my students say 🎓
                     </div>
-                    <div className='home__search-block'>
+                    <Link className='home__search-block'>
                         <FontAwesomeIcon icon={faSearch} />
                         <span>
                             Find your place among happy students!
                         </span>
-                    </div>
+                    </Link>
                 </div>
                 <div className='home__student-list'>
                     {

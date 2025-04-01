@@ -6,3 +6,15 @@ html, body {
   background: #000000;
   font-family: "Delius", cursive;
 }
+
+@media(min-width: 1600px) {
+  body {
+    zoom: 1.2;
+  }
+}
+
+@media(min-width: 1900px) {
+  body {
+    zoom: 1.4;
+  }
+}

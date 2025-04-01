@@ -76,6 +76,9 @@
     font-size: 12px;
     display: flex;
     align-items: center;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .student__audio-time svg {
@@ -85,4 +88,19 @@
 
 .student__audio-name-block {
     margin-bottom: 5px;
+    font-size: 12px;
+}
+
+@media(max-width: 500px) {
+    .student__name {
+        font-size: 25px;
+    }
+
+    .student__position {
+        font-size: 16px;
+    }
+
+    .student__audio-time {
+        zoom: 1.2;
+    }
 }
